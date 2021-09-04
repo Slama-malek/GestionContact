@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Affichage">
+
+    <TextView
+        android:id="@+id/textView3"
+        style="@style/st_titre1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Affichage" />
+
+    <Button
+        android:id="@+id/btnimporter_affichage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Imorter les contacts" />
+
+    <EditText
+        android:id="@+id/edrech_aff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="recherche"
+        android:inputType="textPersonName" />
+
+    <ListView
+        android:id="@+id/lv_affichage"
+        android:layout_width="match_parent"
+        android:layout_height="689dp"/>
+
+</LinearLayout>
